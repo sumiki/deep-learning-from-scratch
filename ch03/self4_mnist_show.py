@@ -13,6 +13,7 @@ def img_show(img):
 (x_train, t_train), (x_test, t_test) = load_mnist(flatten=True, normalize=False)
 
 img = x_train[0]
+print(img)
 label = t_train[0]
 print(label)  # 5
 
